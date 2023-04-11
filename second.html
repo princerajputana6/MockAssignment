@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+     <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: lightblue;
+      }
+      .button-wrapper {
+        height: 130px;
+        width: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+      }
+      .button-outer__body {
+        
+        border-radius: 16px;
+        border: 2px solid #666666;
+        height: 80px;
+        width: 250px;
+        background-color: #cbcbcb;
+        box-shadow: 0px 0px 3px 2px #fff inset;
+      }
+
+      .button {
+        margin: 10px;
+        border-radius: 16px;
+        border: 2px solid #bbb;
+
+        background-image: linear-gradient(#dbdbdb 50%, #bdbdbd 50%);
+
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+        font-size: 24px;
+        font-weight: bold;
+        color: #55556c;
+      }
+      .button i {
+        color: #888888;
+      }
+    </style>
+</head>
+<body>
+            
+    <div class="button-wrapper">
+        <div class="button-outer__body">
+          <button class="button">
+            <i class="fa-sharp fa-solid fa-star" style="color: #9aa0a2"></i>
+            CHECKOUT
+            <i class="fa-sharp fa-solid fa-star" style="color: #9aa0a2"></i>
+          </button>
+        </div>
+      </div>
+</body>
+</html>
